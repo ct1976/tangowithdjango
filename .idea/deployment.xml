@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="https://github.com/ct1976/tangowithdjang_sqllite" uploadOnCheckin="63613f11-8c0f-442f-a1e8-c85a130d3232">
+    <serverData>
+      <paths name="https://github.com/ct1976/tangowithdjang_sqllite">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="https://github.com/ct1976/tangowithdjang_sqllite" />
+  </component>
+</project>
