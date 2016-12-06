@@ -2,6 +2,20 @@
 {% load staticfiles %}
 {% block title %}About Page{% endblock %}
 {% block body_block %}
-      Rango's about page.
-
+    <div class="page-haeder">
+        <h1>About</h1>
+    </div>
+    <div>
+        <p><strong>.</strong></p>
+        <img width="90" height="100" src="{% static "images/rango.jpg" %}"/>
+    </div>
+    <br/>
+    <button onclick="alert('You clicked the button using Javascript.');">
+        Click Me - I run Javascript.
+    </button>
+    <br/>
+    <button id="about-btn">Click Me -I'm Javascript on Speed</button>
+    <p>This is a example</p>
+    <p>This is another example</p>
+    <div id="msg">Hello</div>
 {% endblock %}

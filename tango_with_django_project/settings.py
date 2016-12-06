@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rango',
+    'registration',
 ]
 
 MIDDLEWARE = [
@@ -122,9 +123,15 @@ USE_L10N = True
 
 USE_TZ = True
 
-MEDIA_ROOT = 'F:\\code\\tango_with_django_project\\media'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 LOGIN_URL = '/rango/login/'
+
+REGISTATION_OPEN = True
+ACCOUNT_ACIVITION_DAYS = 7
+REGISTATION_AUTO_LOGIN = True
+LOGIN_REDIRECT_URL = '/rango/'
+LOGIN_URL = '/accounts/login/'
 
 
 # Static files (CSS, JavaScript, Images)
@@ -132,7 +139,6 @@ LOGIN_URL = '/rango/login/'
 STATIC_PATH = os.path.join(BASE_DIR,'static')
 
 STATIC_URL = '/static/'
-
 
 STATICFILES_DIRS = (
     STATIC_PATH,
